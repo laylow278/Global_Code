@@ -1,0 +1,8 @@
+#sentence = "the quick brown fox jumps over the lazy dog"
+#words = sentence.split()
+
+numbers = [12, 54, 33, 67, 24, 89, 11, 24, 47]
+even = []
+#a = [even.append(x) if x % 2 == 0 for x in numbers]
+b = [even for even in numbers if even % 2 == 0]
+print(b)

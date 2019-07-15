@@ -1,0 +1,10 @@
+print("ln Next one")
+
+for j in [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]:
+	print(j)
+
+print("ln Next one")
+
+def star():
+	while a < 5:
+	print("****")

@@ -1,0 +1,8 @@
+def string():
+	a = input("Please Enter Any String: ")
+	for n in a:
+		if n in "a":
+			print("True")
+		
+	return False
+print(s)
